@@ -5,6 +5,7 @@ import orange_juiceImg from './assets/burger.jpg';
 function recipePage(){
     var recipeWrapper = document.createElement('div');
     recipeWrapper.classList.add('wrapper');
+
     var heading = document.createElement('h2');
     heading.textContent = 'On the menu'
     

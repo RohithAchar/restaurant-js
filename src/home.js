@@ -2,6 +2,8 @@ import heroImage from './assets/hero.jpg';
 function homePage(){
     var homeWrapper = document.createElement('div');
     homeWrapper.classList.add('wrapper');
+    homeWrapper.classList.add('home-wrapper');
+
     var heading = document.createElement('h1');
     heading.textContent = "The Sunday Bite";
     var subHeading = document.createElement('p');

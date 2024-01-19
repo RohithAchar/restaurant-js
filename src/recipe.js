@@ -7,7 +7,7 @@ function recipePage(){
     recipeWrapper.classList.add('wrapper');
     recipeWrapper.classList.add('recipe-wrapper');
 
-    var heading = document.createElement('h2');
+    var heading = document.createElement('h1');
     heading.textContent = 'On the menu'
     
     var cardsWrapper = document.createElement('div');

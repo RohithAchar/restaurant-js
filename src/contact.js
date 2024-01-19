@@ -1,6 +1,7 @@
 function contactPage(){
     var contactWrapper = document.createElement('div');
     contactWrapper.classList.add('wrapper');
+    contactWrapper.classList.add('contact-wrapper');
 
     var heading = document.createElement('h1');
     heading.textContent = 'Swing by soon !';

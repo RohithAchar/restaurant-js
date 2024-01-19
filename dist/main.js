@@ -20,13 +20,100 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, `body{
-    background-color: aqua;
-}`, "",{"version":3,"sources":["webpack://./src/style/style.css"],"names":[],"mappings":"AAAA;IACI,sBAAsB;AAC1B","sourcesContent":["body{\n    background-color: aqua;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, `*{
+    font-family: Poppins,sans-serif;
+}
+body{
+    background-color: #ffd230;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+a{
+    text-decoration: none;
+}
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 10px;
+    width: 100vw;
+}
+#navbar a{
+    padding: 20px;
+}
+
+/* home page */
+.wrapper{
+    text-align: center;
+}
+.wrapper img{
+    border-radius: 10px;
+}
+.home-wrapper h1{
+    margin-top: -5px;
+    margin-bottom: 0px;
+    font-size: 72px;
+}
+.home-wrapper p{
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+/* recipe page */
+.recipe-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.recipe-wrapper h1{
+    margin-bottom: 10px;
+    font-size: 56px;
+    margin-top: 0px;
+}
+.cards-wrapper{
+    display: flex;
+}
+.card{
+    width: 300px;
+    padding: 5px;
+}
+.card p{
+    margin-top: -15px;
+}
+
+/* contact page */
+.contact-wrapper h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 56px;
+}
+.contact-wrapper h3{
+    margin-bottom: 0px;
+}
+.contact-wrapper p{
+    margin-top: 5px;
+}`, "",{"version":3,"sources":["webpack://./src/style/style.css"],"names":[],"mappings":"AAEA;IACI,+BAA+B;AACnC;AACA;IACI,yBAAyB;IACzB,SAAS;IACT,UAAU;IACV,SAAS;AACb;AACA;IACI,qBAAqB;AACzB;;AAEA;IACI,aAAa;IACb,uBAAuB;IACvB,SAAS;IACT,gBAAgB;IAChB,YAAY;AAChB;AACA;IACI,aAAa;AACjB;;AAEA,cAAc;AACd;IACI,kBAAkB;AACtB;AACA;IACI,mBAAmB;AACvB;AACA;IACI,gBAAgB;IAChB,kBAAkB;IAClB,eAAe;AACnB;AACA;IACI,iBAAiB;IACjB,mBAAmB;AACvB;;AAEA,gBAAgB;AAChB;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;AACvB;AACA;IACI,mBAAmB;IACnB,eAAe;IACf,eAAe;AACnB;AACA;IACI,aAAa;AACjB;AACA;IACI,YAAY;IACZ,YAAY;AAChB;AACA;IACI,iBAAiB;AACrB;;AAEA,iBAAiB;AACjB;IACI,gBAAgB;IAChB,mBAAmB;IACnB,eAAe;AACnB;AACA;IACI,kBAAkB;AACtB;AACA;IACI,eAAe;AACnB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');\n\n*{\n    font-family: Poppins,sans-serif;\n}\nbody{\n    background-color: #ffd230;\n    margin: 0;\n    padding: 0;\n    border: 0;\n}\na{\n    text-decoration: none;\n}\n\n#navbar{\n    display: flex;\n    justify-content: center;\n    gap: 3rem;\n    margin-top: 10px;\n    width: 100vw;\n}\n#navbar a{\n    padding: 20px;\n}\n\n/* home page */\n.wrapper{\n    text-align: center;\n}\n.wrapper img{\n    border-radius: 10px;\n}\n.home-wrapper h1{\n    margin-top: -5px;\n    margin-bottom: 0px;\n    font-size: 72px;\n}\n.home-wrapper p{\n    margin-top: -10px;\n    margin-bottom: 30px;\n}\n\n/* recipe page */\n.recipe-wrapper{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n.recipe-wrapper h1{\n    margin-bottom: 10px;\n    font-size: 56px;\n    margin-top: 0px;\n}\n.cards-wrapper{\n    display: flex;\n}\n.card{\n    width: 300px;\n    padding: 5px;\n}\n.card p{\n    margin-top: -15px;\n}\n\n/* contact page */\n.contact-wrapper h1{\n    margin-top: 20px;\n    margin-bottom: 20px;\n    font-size: 56px;\n}\n.contact-wrapper h3{\n    margin-bottom: 0px;\n}\n.contact-wrapper p{\n    margin-top: 5px;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
+
+/***/ }),
+
+/***/ "./src/assets/burger.jpg":
+/*!*******************************!*\
+  !*** ./src/assets/burger.jpg ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "images/burger.jpg");
 
 /***/ }),
 
@@ -41,6 +128,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "images/hero.jpg");
+
+/***/ }),
+
+/***/ "./src/assets/wings.jpg":
+/*!******************************!*\
+  !*** ./src/assets/wings.jpg ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "images/wings.jpg");
 
 /***/ }),
 
@@ -430,6 +531,50 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/contact.js":
+/*!************************!*\
+  !*** ./src/contact.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+function contactPage(){
+    var contactWrapper = document.createElement('div');
+    contactWrapper.classList.add('wrapper');
+    contactWrapper.classList.add('contact-wrapper');
+
+    var heading = document.createElement('h1');
+    heading.textContent = 'Swing by soon !';
+    var name = document.createElement('h3');
+    name.textContent = 'The Sunday Bite';
+    var address = document.createElement('p');
+    address.textContent = '123 Anywhere St., Any City, State, Country 12345';
+    var email = document.createElement('h3');
+    email.textContent = 'Email Address';
+    var mail = document.createElement('p');
+    mail.textContent = 'hello@reallygreatsite.com';
+    var phone = document.createElement('h3');
+    phone.textContent = 'Phone Number';
+    var number = document.createElement('p');
+    number.textContent = '(123) 456 7890';
+
+    contactWrapper.appendChild(heading);
+    contactWrapper.appendChild(name);
+    contactWrapper.appendChild(address);
+    contactWrapper.appendChild(email);
+    contactWrapper.appendChild(mail);
+    contactWrapper.appendChild(phone);
+    contactWrapper.appendChild(number);
+
+    return contactWrapper;
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (contactPage());
+
+/***/ }),
+
 /***/ "./src/home.js":
 /*!*********************!*\
   !*** ./src/home.js ***!
@@ -445,6 +590,8 @@ __webpack_require__.r(__webpack_exports__);
 function homePage(){
     var homeWrapper = document.createElement('div');
     homeWrapper.classList.add('wrapper');
+    homeWrapper.classList.add('home-wrapper');
+
     var heading = document.createElement('h1');
     heading.textContent = "The Sunday Bite";
     var subHeading = document.createElement('p');
@@ -477,25 +624,97 @@ function navigationBar(){
 
     var homeBtn = document.createElement('a');
     homeBtn.textContent = "Home";
-    homeBtn.href = "home";
+    homeBtn.id = 'home';
+    homeBtn.href = "#";
     homeBtn.classList.add('nav-btn');
+    homeBtn.classList.add('active');
     nav.appendChild(homeBtn);
 
     var recipeBtn = document.createElement('a');
     recipeBtn.textContent = "Recipe";
-    recipeBtn.href = "recipe";
-    recipeBtn.classList.add('recipe-btn');
+    recipeBtn.id = 'recipe';
+    recipeBtn.href = "#";
+    recipeBtn.classList.add('nav-btn');
     nav.appendChild(recipeBtn);
 
     var contactBtn = document.createElement('a');
     contactBtn.textContent = "Contact";
-    contactBtn.href = "contact";
-    contactBtn.classList.add('contact-btn');
+    contactBtn.id = 'contact';
+    contactBtn.href = "#";
+    contactBtn.classList.add('nav-btn');
     nav.appendChild(contactBtn);
 
     return nav;
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (navigationBar());
+
+/***/ }),
+
+/***/ "./src/recipe.js":
+/*!***********************!*\
+  !*** ./src/recipe.js ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _assets_burger_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/burger.jpg */ "./src/assets/burger.jpg");
+/* harmony import */ var _assets_wings_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/wings.jpg */ "./src/assets/wings.jpg");
+
+
+
+
+function recipePage(){
+    var recipeWrapper = document.createElement('div');
+    recipeWrapper.classList.add('wrapper');
+    recipeWrapper.classList.add('recipe-wrapper');
+
+    var heading = document.createElement('h1');
+    heading.textContent = 'On the menu'
+    
+    var cardsWrapper = document.createElement('div');
+    cardsWrapper.classList.add('cards-wrapper');
+
+    cardsWrapper.appendChild(createCard(
+        _assets_burger_jpg__WEBPACK_IMPORTED_MODULE_0__["default"],
+        'Gourmet Burgers',
+        'Packed with flavour and cooked to perfection.'
+        ));
+    cardsWrapper.appendChild(createCard(
+        _assets_wings_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
+        'Chicken Wings',
+        'Paired with dipping sauces that are too good to pass up.'
+        ));
+    cardsWrapper.appendChild(createCard(
+        _assets_burger_jpg__WEBPACK_IMPORTED_MODULE_0__["default"],
+        'Thirst Quenchers',
+        'Choose from classic blends and unique concoctions.'
+        )); 
+
+    recipeWrapper.appendChild(heading);
+    recipeWrapper.appendChild(cardsWrapper);
+    return recipeWrapper;
+}
+function createCard(source,name,about){
+    var card = document.createElement('div');
+    card.classList.add('card');
+
+    var image = document.createElement('img');
+    image.src = source;
+    var recipeName = document.createElement('h3');
+    recipeName.textContent = name;
+    var aboutRecipe = document.createElement('p');
+    aboutRecipe.textContent = about;
+
+    card.appendChild(image);
+    card.appendChild(recipeName);
+    card.appendChild(aboutRecipe);
+
+    return card;
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (recipePage());
 
 /***/ }),
 
@@ -671,13 +890,34 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style/style.css */ "./src/style/style.css");
 /* harmony import */ var _navigation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./navigation */ "./src/navigation.js");
 /* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home */ "./src/home.js");
+/* harmony import */ var _recipe__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./recipe */ "./src/recipe.js");
+/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./contact */ "./src/contact.js");
+
+
 
 
 
 
 const contentDiv = document.querySelector('#content');
+const navs = _navigation__WEBPACK_IMPORTED_MODULE_1__["default"].querySelectorAll('a');
+
 contentDiv.appendChild(_navigation__WEBPACK_IMPORTED_MODULE_1__["default"]);
 contentDiv.appendChild(_home__WEBPACK_IMPORTED_MODULE_2__["default"]);
+
+for (const element of navs) {
+    element.addEventListener('click',(a) => {
+        contentDiv.innerHTML = "";
+        contentDiv.appendChild(_navigation__WEBPACK_IMPORTED_MODULE_1__["default"]);
+        switch(a.target.id){
+            case 'home': contentDiv.appendChild(_home__WEBPACK_IMPORTED_MODULE_2__["default"]);
+            break;
+            case 'recipe': contentDiv.appendChild(_recipe__WEBPACK_IMPORTED_MODULE_3__["default"]);
+            break;
+            case 'contact': contentDiv.appendChild(_contact__WEBPACK_IMPORTED_MODULE_4__["default"]);
+            break;
+        }
+    });
+}
 })();
 
 /******/ })()

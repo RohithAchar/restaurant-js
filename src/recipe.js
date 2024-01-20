@@ -1,6 +1,6 @@
 import burgerImg from './assets/burger.jpg';
 import wingsImg from './assets/wings.jpg';
-import orange_juiceImg from './assets/burger.jpg';
+import orange_juiceImg from './assets/orange_juice.jpg';
 
 function recipePage(){
     var recipeWrapper = document.createElement('div');

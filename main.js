@@ -132,6 +132,20 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/assets/orange_juice.jpg":
+/*!*************************************!*\
+  !*** ./src/assets/orange_juice.jpg ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "images/orange_juice.jpg");
+
+/***/ }),
+
 /***/ "./src/assets/wings.jpg":
 /*!******************************!*\
   !*** ./src/assets/wings.jpg ***!
@@ -663,6 +677,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _assets_burger_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/burger.jpg */ "./src/assets/burger.jpg");
 /* harmony import */ var _assets_wings_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/wings.jpg */ "./src/assets/wings.jpg");
+/* harmony import */ var _assets_orange_juice_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/orange_juice.jpg */ "./src/assets/orange_juice.jpg");
 
 
 
@@ -689,7 +704,7 @@ function recipePage(){
         'Paired with dipping sauces that are too good to pass up.'
         ));
     cardsWrapper.appendChild(createCard(
-        _assets_burger_jpg__WEBPACK_IMPORTED_MODULE_0__["default"],
+        _assets_orange_juice_jpg__WEBPACK_IMPORTED_MODULE_2__["default"],
         'Thirst Quenchers',
         'Choose from classic blends and unique concoctions.'
         )); 
